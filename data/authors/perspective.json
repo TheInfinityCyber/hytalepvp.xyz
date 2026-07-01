@@ -1,0 +1,8 @@
+{
+    "name": "Perspective",
+    "image" : "img/stark.jpeg",
+    "bio": "Website Creator",
+    "social": [
+        { "discord": "..." }
+    ]
+}
