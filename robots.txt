@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://hytalepvp.xyz/sitemap.xml
+Sitemap: https://theinfinitycyber.github.io/hytalepvp.xyz/sitemap.xml
