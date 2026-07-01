@@ -1,5 +1,4 @@
 # .github/workflows/gh-pages.yml
-
 name: GitHub Pages
 
 on:
@@ -7,9 +6,12 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write # Crucial so the action can create your gh-pages branch!
+
 jobs:
   build-deploy:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
